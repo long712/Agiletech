@@ -1,0 +1,52 @@
+.loginContainer {
+  padding-top: 60px;
+}
+
+.loginTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 160%;
+  /* or 102px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.005em;
+
+  color: #000000;
+}
+
+.loginUserName {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.005em;
+
+  color: #000000;
+}
+
+.loginButton {
+  margin-top: 46px;
+}
+
+.loginButtonSingIn {
+  border: none;
+  background: #9c69e2;
+  width: 413px;
+  border-radius: 50px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  align-items: center;
+  letter-spacing: 0.005em;
+  color: #ffffff;
+}

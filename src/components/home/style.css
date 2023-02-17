@@ -1,0 +1,244 @@
+/*///////////////////////////////home*/
+.home {
+  padding-top: 48px;
+}
+.homeHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homeButtonSingIn {
+  border: none;
+  padding: 18px 81px;
+  border-radius: 50px;
+  background: #9c69e2;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.5%;
+  color: #fff;
+}
+
+/*/ //////////////////////////////homeBanner*/
+.homeBanner {
+  margin-top: 142px;
+  display: flex;
+  /* max-width: 500px; */
+}
+
+.homeBannerRight {
+  /* position: absolute; */
+  width: 50%;
+}
+
+.homeBannerRightTitle {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 110%;
+  align-items: center;
+  color: #212353;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.homeBannerRightpra {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4b5d68;
+  width: 44%;
+  margin: 0;
+  margin-bottom: 65px;
+}
+
+.homeBannerRightButton {
+  border: none;
+  background: #9c69e2;
+  border-radius: 50px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 160%;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  padding: 16px 38px;
+}
+
+.homeBannerLeft {
+  position: absolute;
+  /* right: 0px; */
+}
+
+/*////////////////////////////////////////homeBody*/
+.homeBody {
+  padding-top: 164px;
+  text-align: center;
+}
+
+.homeBodyTitle {
+  max-width: 545px;
+  margin: auto;
+}
+
+.homeBodyTitleContent {
+  font-family: "Helvetica";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  color: #212353;
+}
+
+.homeBodypra {
+  font-family: "Avenir";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4b5d68;
+}
+
+.homeBodyContent {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-row-gap: 50px;
+  padding-top: 98px;
+}
+
+.homeBodyContent1 {
+  background-image: url("../../accsets/img/background1.png");
+  background-repeat: no-repeat;
+  height: 352px;
+
+  display: flex;
+  align-items: center;
+}
+
+.homeBodyContent2 {
+  background-image: url("../../accsets/img/background2.png");
+  background-repeat: no-repeat;
+  height: 352px;
+
+  display: flex;
+  align-items: center;
+}
+
+.homeBodyContent3 {
+  background-image: url("../../accsets/img/background3.png");
+  background-repeat: no-repeat;
+  height: 352px;
+
+  display: flex;
+  align-items: center;
+}
+
+.homeBodyContent4 {
+  background-image: url("../../accsets/img/background4.png");
+  background-repeat: no-repeat;
+  height: 352px;
+
+  display: flex;
+  align-items: center;
+}
+
+/*/ ////////////////////////homeSlider*/
+.homeSlider {
+  width: 100%;
+  background-color: #9c69e2;
+  border-radius: 50px;
+  margin-top: 120px;
+  margin-bottom: 83px;
+}
+
+.homeSliderTitle {
+  font-family: "Helvetica";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  color: #ffffff;
+  max-width: 100%;
+  margin: auto;
+  padding-bottom: 88px;
+}
+
+.homeSliderContainer {
+  padding: 130px;
+  max-width: 1120px;
+}
+
+.homeSliderContent {
+  max-width: 931px;
+  margin: auto;
+}
+
+.homeSliderContent1 {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.homeSliderContentName {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 160%;
+  /* or 29px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.005em;
+
+  /* 2 */
+
+  color: #212353;
+}
+
+.homeSliderContentNickName {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  /* identical to box height, or 22px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+
+  /* 3 */
+
+  color: #9c69e2;
+}
+
+.homeSliderContentComment {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  /* or 32px */
+
+  /* 1 */
+
+  color: #4b5d68;
+}
+
+/*////////////////////////homeFooter*/
+
+.homeFooter {
+  padding-top: 100px;
+}
+
+.homeFooterContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
