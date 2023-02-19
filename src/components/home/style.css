@@ -1,6 +1,8 @@
 /*///////////////////////////////home*/
 .home {
   padding-top: 48px;
+  max-width: 1000px;
+  margin: auto;
 }
 .homeHeader {
   display: flex;

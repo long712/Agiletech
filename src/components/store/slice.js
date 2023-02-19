@@ -16,6 +16,8 @@ export const profileSlice = createSlice({
     builder
       .addCase(loginThunk.fulfilled, (state, action) => {
         toast.success("login success", { autoClose: 1000 });
+        console.log(action.payload);
+        localStorage.setItem("tokenLogin", action.payload.data.accessToken);
         return action.payload;
       })
       .addCase(loginThunk.rejected, () => {
